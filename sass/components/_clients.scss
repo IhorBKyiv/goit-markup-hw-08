@@ -4,6 +4,12 @@
     gap: 30px;
 }
 
+.clients__item{
+    @media screen and (min-width:$tablet) and (max-width:$desktop) {
+    width: calc((100% - 60px) /3);
+    }
+}
+
 .clients__link {
     color: #AFB1B8;
     display: flex;

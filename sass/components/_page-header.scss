@@ -3,6 +3,7 @@
     border-bottom: 1px solid #ECECEC;
 }
 
+
 .container__nav,
 .navigation__nav {
     display: flex;
@@ -13,7 +14,6 @@
 .navigation__list {
     display: flex;
     align-items: center;
-    margin-left: 93px;
     gap: 50px;
 }
 
@@ -72,6 +72,7 @@
 .logo__header {
     padding-top: 24px;
     padding-bottom: 25px;
+    margin-right: 92px;
 
     color: #000000;
 
@@ -91,8 +92,8 @@
 .contacts {
     align-items: center;
 
-    @media screen and (min-width:$tablet) {
-    flex-wrap: wrap;
+    @media screen and (min-width:$tablet) and (max-width:$desktop) {
+    flex-direction: column;
     }
 
     @media screen and (min-width:$desktop){
@@ -117,6 +118,12 @@
     color: var(--accent-color);
     }
 }
+}
+
+.contacts__item{
+    @media screen and (min-width:$tablet) and (max-width:$desktop) {
+    padding: 5px;
+    }
 }
 
 .contacts__icon {

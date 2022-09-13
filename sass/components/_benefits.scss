@@ -3,12 +3,24 @@
 
     &__list{
          
-    @media screen and (min-width:$desktop){
+    @media screen and (min-width:$tablet){
         display: flex;
+        flex-wrap: wrap;
         gap: 30px;
     }
+
+    @media screen and (min-width:$desktop){
+        flex-wrap: nowrap;
     }
 }
+}
+
+.benefits__item{
+    @media screen and (min-width:$tablet) {
+    width: calc((100% - 30px) /2);
+    }
+}
+
 
 .benefits__subtitle {
     margin-top: 0;
