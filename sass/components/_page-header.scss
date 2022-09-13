@@ -7,18 +7,18 @@
 .navigation__nav {
     display: flex;
     text-align: center;
+    justify-content: space-between;
 }
 
 .navigation__list {
     display: flex;
+    align-items: center;
     margin-left: 93px;
     gap: 50px;
 }
 
 .navigation__link {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
     color: var(--secondary-text-color);
     font-weight: 500;
@@ -89,20 +89,19 @@
 }
 
 .contacts {
-    // display: flex;
-    // margin-left: auto;
-    // gap: 50px;
+    align-items: center;
+
+    @media screen and (min-width:$tablet) {
+    flex-wrap: wrap;
+    }
 
     @media screen and (min-width:$desktop){
     display: flex;
-    margin-left: auto;
     gap: 50px;
     }
 
     &__link{
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
     
     color: var(--primary-text-color);
     font-weight: 500;
