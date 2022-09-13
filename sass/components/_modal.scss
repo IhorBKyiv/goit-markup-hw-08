@@ -165,7 +165,7 @@
     letter-spacing: 0.03em;
     color: #757575;
     
-    @media screen and (max-width:$mobile){
+    @media screen and (min-width:$mobile){
     font-size: 12px;
     line-height: 1.16;
     }
@@ -183,7 +183,7 @@
     text-decoration-line: underline;
     color: #2196F3;
 
-    @media screen and (max-width:$mobile) {
+    @media screen and (min-width:$mobile) {
     font-size: 12px;
     line-height: 1.16;
     }

@@ -18,22 +18,66 @@
 
 <header class="page-header">
 
-<!-- Navigation -->
-
+    <div class="menu-container">
+    <a class="logo logo__mobile" href="./index.html" lang="en">
+    <span class="logo__mobile--accent">Web</span>Studio
+    </a>
+    <button class="mobile-btn is-open" type="button" aria-expanded="false" data-menu-button>
+    <svg class="mobile-btn__icon" width="16" height="12" aria-label="Перемикач мобільного меню">
+    <use class="mobile-btn__iconopen" href="./images/icons.svg#icon-mobile-menu"></use>
+    <use class="mobile-btn__iconclose" href="./images/icons.svg#icon-Vector-1"></use>
+    </svg>
+    </div>
+    </button>
+    <div class="menu-mobile">
+    <ul class="menu-mobile__list">
+    <li class="menu-mobile__item"><a class="menu-mobile__link menu-mobile__link--studioline current"
+    href="./index.html"><span class="menu-mobile__span">Студія</span></a></li>
+    <li class="menu-mobile__item"><a class="menu-mobile__link" href="./portfolio.html">Портфоліо</a></li>
+    <li class="menu-mobile__item"><a class="menu-mobile__link" href="">Контакти</a></li>
+    </ul>
+    <ul class="mobile-contacts">
+    <li class="mobile-contacts__item">
+    <a class="mobile-contacts__link" href="tel:+380961111111" aria-label="Телефон">
+    <span class="mobile-contacts__span">+38 096 111 11 11</span>
+    </a>
+    </li>
+    <li class="mobile-contacts__item">
+    <a class="mobile-contacts__link" href="mailto:info@devstudio.com" aria-label="Електронна пошта" lang="en">
+    <span>info@devstudio.com</span>
+    </a>
+    </li>
+    </ul>
+    <ul class="mobile-social">
+    <li class="mobile-social__item"> <a class="mobile-social__link" href=""><span
+    class="mobile-social__span">Instagram</span></a>
+    </li>
+    <li class="mobile-social__item"> <a class="mobile-social__link" href=""><span>Twitter</span></a>
+    </li>
+    <li class="mobile-social__item"> <a class="mobile-social__link" href=""><span>Facebook</span></a>
+    </li>
+    <li class="mobile-social__item"> <a class="mobile-social__link" href=""><span>LinkedIn</span></a>
+    </li>
+    </ul>
+    </div>
+    
+    <!-- Navigation -->
+    
     <div class="container container__nav">
     <nav class="navigation navigation__nav">
     <a class="logo logo__header" href="./index.html" lang="en">
     <span class="logo__header--accent">Web</span>Studio
     </a>
     <ul class="navigation__list">
-    <li class="navigation__item"><a class="navigation__link" href="./index.html">Студія</a></li>
-    <li class="navigation__item"><a class="navigation__link navigation__link--portfolioline current" href="./portfolio.html">Портфоліо</a></li>
+    <li class="navigation__item"><a class="navigation__link navigation__link--studioline current"
+    href="./index.html">Студія</a></li>
+    <li class="navigation__item"><a class="navigation__link" href="./portfolio.html">Портфоліо</a></li>
     <li class="navigation__item"><a class="navigation__link" href="">Контакти</a></li>
     </ul>
     </nav>
-
-<!-- Contacts -->
-
+    
+    <!-- Contacts -->
+    
     <ul class="contacts">
     <li class="contacts__item">
     <a class="contacts__link" href="mailto:info@devstudio.com" aria-label="Електронна пошта" lang="en">
@@ -53,7 +97,6 @@
     </li>
     </ul>
     </div>
-</header>
 
 <main>
 
