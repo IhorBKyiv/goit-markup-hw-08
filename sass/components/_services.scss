@@ -1,0 +1,37 @@
+.services{
+    @media screen and (max-width:$desktop){
+        display: none;
+    }
+}
+
+.services__list {
+    display: flex;
+    gap: 30px;
+}
+
+.services__div {
+    position: relative;
+    &::before{
+    position: absolute;
+    bottom: 0;
+    
+    display: inline-block;
+    width: 370px;
+    height: 70px;
+    content: "";
+    background: rgba(47, 48, 58, 0.8);
+    }
+}
+
+.services__text {
+    position: absolute;
+    bottom: 27px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

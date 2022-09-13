@@ -1,0 +1,56 @@
+.page {
+    color: var(--primary-text-color);
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* Title h2 */
+
+.title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Title h4 */
+
+h4 {
+    margin-bottom: 20px;
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/* Container */
+
+.container {
+    max-width: 480px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    @media screen and(min-width:$tablet){
+        max-width: 768px;
+    }
+
+    @media screen and (min-width:$desktop){
+        max-width: 1200px;
+    }
+}
+
+/* Section */
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
