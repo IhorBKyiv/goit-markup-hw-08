@@ -527,19 +527,28 @@ body.overflow {
   margin: 0 auto;
   margin-top: 0;
   margin-bottom: 30px;
-  max-width: 696px;
   color: var(--primary-white-color);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+@media screen and (max-width: 479.98px) {
+  .hero__title {
+    max-width: 360px;
+    font-size: 26px;
+    line-height: 1.6;
+  }
+}
+@media screen and (min-width: 1199.98px) {
+  .hero__title {
+    max-width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 
 .button-primary {
   display: inline-block;
-  padding: 11px 34px;
-  min-width: 216px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: 700;
@@ -550,6 +559,18 @@ body.overflow {
   cursor: pointer;
   border-radius: 4px;
   border: none;
+}
+@media screen and (max-width: 479.98px) {
+  .button-primary {
+    padding: 10px 24px;
+    min-width: 200px;
+  }
+}
+@media screen and (min-width: 1199.98px) {
+  .button-primary {
+    padding: 10px 32px;
+    min-width: 216px;
+  }
 }
 
 .backdrop {
@@ -574,17 +595,23 @@ body.overflow {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 581px;
-  width: 528px;
+  width: 370px;
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms linear;
 }
+@media screen and (min-width: 1199.98px) {
+  .modal {
+    height: 581px;
+    width: 528px;
+  }
+}
 
 .modal__btn {
   position: absolute;
+  padding: 6px;
   width: 30px;
   height: 30px;
   right: 8px;
@@ -636,7 +663,6 @@ body.overflow {
 .modal-form__input {
   padding: 10px;
   padding-left: 25px;
-  width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -646,6 +672,11 @@ body.overflow {
 }
 .modal-form__input:focus:focus ~ .modal-form__icon {
   fill: var(--accent-color);
+}
+@media screen and (min-width: 1199.98px) {
+  .modal-form__input {
+    width: 448px;
+  }
 }
 
 .modal-form__icon {
@@ -696,10 +727,20 @@ body.overflow {
 }
 
 .modal-form__checkboxlabel {
-  font-size: 14px;
-  line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
+}
+@media screen and (max-width: 479.98px) {
+  .modal-form__checkboxlabel {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+}
+@media screen and (min-width: 1199.98px) {
+  .modal-form__checkboxlabel {
+    font-size: 14px;
+    line-height: 1.7;
+  }
 }
 
 .modal-form__checkboxspan {
@@ -708,6 +749,18 @@ body.overflow {
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: #2196F3;
+}
+@media screen and (max-width: 479.98px) {
+  .modal-form__checkboxspan {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+}
+@media screen and (min-width: 1199.98px) {
+  .modal-form__checkboxspan {
+    font-size: 14px;
+    line-height: 1.7;
+  }
 }
 
 .modal-form__btn {

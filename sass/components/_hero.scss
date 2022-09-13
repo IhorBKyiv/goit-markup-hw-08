@@ -28,24 +28,31 @@
 }
 
 .hero__title {
-     margin: 0 auto;
-     margin-top: 0;
-     margin-bottom: 30px;
-     max-width: 696px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 30px;
 
-     color: var(--primary-white-color);
-     font-weight: 900;
-     font-size: 44px;
-     line-height: 1.36;
-     letter-spacing: 0.06em;
-     text-transform: uppercase;
+    color: var(--primary-white-color);
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    @media screen and (max-width:$mobile){
+    max-width: 360px;
+    font-size: 26px;
+    line-height: 1.6;
+    }
+
+    @media screen and (min-width:$desktop){
+    max-width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+    }
  }
 
 
 .button-primary {
     display: inline-block;
-    padding: 11px 34px;
-    min-width: 216px;
 
     color: var(--primary-white-color);
     background-color: var(--accent-color);
@@ -57,4 +64,14 @@
     cursor: pointer;
     border-radius: 4px;
     border: none;
+
+    @media screen and (max-width:$mobile){
+    padding: 10px 24px;
+    min-width: 200px;
+    }
+
+    @media screen and (min-width:$desktop) {
+    padding: 10px 32px;
+    min-width: 216px;
+    }
 }
