@@ -617,12 +617,16 @@ body.overflow {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 450px;
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms linear;
+}
+@media screen and (min-width: 479.98px) {
+  .modal {
+    width: 450px;
+  }
 }
 @media screen and (min-width: 1199.98px) {
   .modal {
@@ -751,12 +755,8 @@ body.overflow {
 .modal-form__checkboxlabel {
   letter-spacing: 0.03em;
   color: #757575;
-}
-@media screen and (min-width: 479.98px) {
-  .modal-form__checkboxlabel {
-    font-size: 12px;
-    line-height: 1.16;
-  }
+  font-size: 12px;
+  line-height: 1.16;
 }
 @media screen and (min-width: 1199.98px) {
   .modal-form__checkboxlabel {
@@ -771,12 +771,8 @@ body.overflow {
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: #2196F3;
-}
-@media screen and (min-width: 479.98px) {
-  .modal-form__checkboxspan {
-    font-size: 12px;
-    line-height: 1.16;
-  }
+  font-size: 12px;
+  line-height: 1.16;
 }
 @media screen and (min-width: 1199.98px) {
   .modal-form__checkboxspan {
