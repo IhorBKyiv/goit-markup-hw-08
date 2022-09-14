@@ -5,7 +5,7 @@
     background-image:linear-gradient(
     rgba(47,48,58,0.4),
     rgba(47, 48, 58, 0.4)),
-    url(../images/hero.jpg);
+    url(../images/mobile/header-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,6 +13,7 @@
     background-color: #000000;
 
     @media screen and (min-width:$mobile){
+    background-image: url("../images/tablet/header-1x.jpg");
     padding-top: 118px;
     padding-bottom: 118px;
     height: 400px;
@@ -20,6 +21,7 @@
     }
 
     @media screen and (min-width:$tablet) {
+    background-image: url("../images/desktop/header-1x.jpg");
     max-width: 768px;
     }
 
