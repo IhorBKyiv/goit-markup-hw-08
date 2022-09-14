@@ -94,6 +94,7 @@
 
     @media screen and (min-width:$tablet) and (max-width:$desktop) {
     flex-direction: column;
+    padding-top: 12px;
     }
 
     @media screen and (min-width:$desktop){

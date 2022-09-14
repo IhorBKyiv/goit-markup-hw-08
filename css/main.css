@@ -332,6 +332,7 @@ h4 {
 @media screen and (min-width: 767.98px) and (max-width: 1199.98px) {
   .contacts {
     flex-direction: column;
+    padding-top: 12px;
   }
 }
 @media screen and (min-width: 1199.98px) {
@@ -1061,6 +1062,12 @@ body.overflow {
   display: inline-block;
   margin-top: 20px;
 }
+@media screen and (min-width: 479.98px) and (max-width: 1199.98px) {
+  .address__list {
+    margin-bottom: 60px;
+  }
+}
+
 .address__item:not(:last-child) {
   margin-bottom: 9px;
 }
