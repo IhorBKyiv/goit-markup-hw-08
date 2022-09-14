@@ -31,7 +31,7 @@
     </button>
     <div class="menu-mobile">
     <ul class="menu-mobile__list">
-    <li class="menu-mobile__item"><a class="menu-mobile__link menu-mobile__link--studioline current"
+    <li class="menu-mobile__item"><a class="menu-mobile__link"
     href="./index.html"><span class="menu-mobile__span">Студія</span></a></li>
     <li class="menu-mobile__item"><a class="menu-mobile__link" href="./portfolio.html">Портфоліо</a></li>
     <li class="menu-mobile__item"><a class="menu-mobile__link" href="">Контакти</a></li>
@@ -69,9 +69,9 @@
     <span class="logo__header--accent">Web</span>Studio
     </a>
     <ul class="navigation__list">
-    <li class="navigation__item"><a class="navigation__link navigation__link--studioline current"
+    <li class="navigation__item"><a class="navigation__link"
     href="./index.html">Студія</a></li>
-    <li class="navigation__item"><a class="navigation__link" href="./portfolio.html">Портфоліо</a></li>
+    <li class="navigation__item"><a class="navigation__link navigation__link--portfolioline current" href="./portfolio.html">Портфоліо</a></li>
     <li class="navigation__item"><a class="navigation__link" href="">Контакти</a></li>
     </ul>
     </nav>
@@ -119,7 +119,15 @@
     <li class="portfolio-cards__item"><a class="portfolio-cards__link" href="">
     <div class="portfolio-thumb">
     <p class="portfolio-cards__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-    <img class="portfolio-cards__img" src="./images/portfolio/Techno.jpg" alt="сторінка сайту" width="370" height="294">
+    <picture>
+    <source srcset="./images/desktop/portfolio-techno-1x.jpg 1x, ./images/desktop/portfolio-techno-2x.jpg 2x"
+     media="(min-width:1200px)" />
+    <source srcset="./images/tablet/portfolio-techno-1x.jpg 1x, ./images/tablet/portfolio-techno-2x.jpg 2x"
+     media="(min-width:768px)" />
+    <source srcset="./images/mobile/portfolio-techno-1x.jpg 1x, ./images/mobile/portfolio-techno-2x.jpg 2x"
+     media="(min-width:480px)" />
+    <img src="./images/mobile/portfolio-techno-1x.jpg" />
+    </picture>
     </div>
     <div class="portfolio-padding">
     <h2 class="portfolio-cards__subtitle">Технокряк</h2>
@@ -130,7 +138,15 @@
     <li class="portfolio-cards__item"><a class="portfolio-cards__link" href="">
     <div class="portfolio-thumb">
     <p class="portfolio-cards__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-    <img class="portfolio-cards__img" src="./images/portfolio/NewOrlean.jpg" alt="постер баскетбол" width="370" height="294">
+    <picture>
+    <source srcset="./images/desktop/portfolio-neworlean-1x.jpg 1x, ./images/desktop/portfolio-neworlean-2x.jpg 2x"
+    media="(min-width:1200px)" />
+    <source srcset="./images/tablet/portfolio-neworlean-1x.jpg 1x, ./images/tablet/portfolio-neworlean-2x.jpg 2x"
+     media=" (min-width:768px)" />
+    <source srcset="./images/mobile/portfolio-neworlean-1x.jpg 1x, ./images/mobile/portfolio-neworlean-2x.jpg 2x"
+     media="(min-width:480px)" />
+    <img src="./images/mobile/portfolio-neworlean-1x.jpg" />
+    </picture>
     </div>
     <div class="portfolio-padding">
     <h2 class="portfolio-cards__subtitle">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
@@ -141,7 +157,15 @@
     <li class="portfolio-cards__item"><a class="portfolio-cards__link" href="">
     <div class="portfolio-thumb">
     <p class="portfolio-cards__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-    <img class="portfolio-cards__img" src="./images/portfolio/Seafood.jpg" alt="емблема ресторану" width="370" height="294">
+    <picture>
+    <source srcset="./images/desktop/portfolio-seafood-1x.jpg 1x, ./images/desktop/portfolio-seafood-2x.jpg 2x"
+    media="(min-width:1200px)" />
+    <source srcset="./images/tablet/portfolio-seafood-1x.jpg 1x, ./images/tablet/portfolio-seafood-2x.jpg 2x"
+    media=" (min-width:768px)" />
+    <source srcset="./images/mobile/portfolio-seafood-1x.jpg 1x, ./images/mobile/portfolio-seafood-2x.jpg 2x"
+    media="(min-width:480px)" />
+    <img src="./images/mobile/portfolio-seafood-1x.jpg" />
+    </picture>
     </div>
     <div class="portfolio-padding">
     <h2 class="portfolio-cards__subtitle">Ресторан <span lang="en">Seafood</span></h2>
@@ -152,7 +176,15 @@
     <li class="portfolio-cards__item"><a class="portfolio-cards__link" href="">
     <div class="portfolio-thumb">
     <p class="portfolio-cards__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-    <img class="portfolio-cards__img" src="./images/portfolio/Prime.jpg" alt="навушники" width="370" height="294">
+    <picture>
+    <source srcset="./images/desktop/portfolio-prime-1x.jpg 1x, ./images/desktop/portfolio-prime-2x.jpg 2x"
+    media="(min-width:1200px)" />
+    <source srcset="./images/tablet/portfolio-prime-1x.jpg 1x, ./images/tablet/portfolio-prime-2x.jpg 2x"
+     media=" (min-width:768px)" />
+    <source srcset="./images/mobile/portfolio-prime-1x.jpg 1x, ./images/mobile/portfolio-prime-2x.jpg 2x"
+     media="(min-width:480px)" />
+    <img src="./images/mobile/portfolio-prime-1x.jpg" />
+    </picture>
     </div>
     <div class="portfolio-padding">
     <h2 class="portfolio-cards__subtitle">Проєкт <span lang="en">Prime</span></h2>
@@ -163,7 +195,15 @@
     <li class="portfolio-cards__item"><a class="portfolio-cards__link" href="">
     <div class="portfolio-thumb">
     <p class="portfolio-cards__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-    <img class="portfolio-cards__img" src="./images/portfolio/Box.jpg" alt="коробки" width="370" height="294">
+    <picture>
+    <source srcset="./images/desktop/portfolio-boxec-1x.jpg 1x, ./images/desktop/portfolio-boxec-2x.jpg 2x"
+    media="(min-width:1200px)" />
+    <source srcset="./images/tablet/portfolio-boxec-1x.jpg 1x, ./images/tablet/portfolio-boxec-2x.jpg 2x"
+    media=" (min-width:768px)" />
+    <source srcset="./images/mobile/portfolio-boxec-1x.jpg 1x, ./images/mobile/portfolio-boxec-2x.jpg 2x"
+    media="(min-width:480px)" />
+    <img src="./images/mobile/portfolio-boxec-1x.jpg" />
+    </picture>
     </div>
     <div class="portfolio-padding">
     <h2 class="portfolio-cards__subtitle">Проєкт <span lang="en">Boxes</span></h2>
@@ -174,7 +214,15 @@
     <li class="portfolio-cards__item"><a class="portfolio-cards__link" href="">
     <div class="portfolio-thumb">
     <p class="portfolio-cards__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-    <img class="portfolio-cards__img" src="./images/portfolio/Inspiration.jpg" alt="сторінка сайту" width="370" height="294">
+    <picture>
+    <source srcset="./images/desktop/portfolio-inspiration-1x.jpg 1x, ./images/desktop/portfolio-inspiration-2x.jpg 2x"
+    media="(min-width:1200px)" />
+    <source srcset="./images/tablet/portfolio-inspiration-1x.jpg 1x, ./images/tablet/portfolio-inspiration-2x.jpg 2x"
+    media=" (min-width:768px)" />
+    <source srcset="./images/mobile/portfolio-inspiration-1x.jpg 1x, ./images/mobile/portfolio-inspiration-2x.jpg 2x"
+    media="(min-width:480px)" />
+    <img src="./images/mobile/portfolio-inspiration-1x.jpg" />
+    </picture>
     </div>
     <div class="portfolio-padding">
     <h2 class="portfolio-cards__subtitle" lang="en">Inspiration has no Borders</h2>
@@ -185,7 +233,15 @@
     <li class="portfolio-cards__item"><a class="portfolio-cards__link" href="">
     <div class="portfolio-thumb">
     <p class="portfolio-cards__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-    <img class="portfolio-cards__img" src="./images/portfolio/Magazine.jpg" alt="журнал" width="370" height="294">
+    <picture>
+    <source srcset="./images/desktop/portfolio-limited-1x.jpg 1x, ./images/desktop/portfolio-limited-2x.jpg 2x"
+    media="(min-width:1200px)" />
+    <source srcset="./images/tablet/portfolio-limited-1x.jpg 1x, ./images/tablet/portfolio-limited-2x.jpg 2x"
+    media=" (min-width:768px)" />
+    <source srcset="./images/mobile/portfolio-limited-1x.jpg 1x, ./images/mobile/portfolio-limited-2x.jpg 2x"
+    media="(min-width:480px)" />
+    <img src="./images/mobile/portfolio-limited-1x.jpg" />
+    </picture>
     </div>
     <div class="portfolio-padding">
     <h2 class="portfolio-cards__subtitle">Видання <span lang="en">Limited Edition</span></h2>
@@ -196,7 +252,15 @@
     <li class="portfolio-cards__item"><a class="portfolio-cards__link" href="">
     <div class="portfolio-thumb">
     <p class="portfolio-cards__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-    <img class="portfolio-cards__img" src="./images/portfolio/Lab.jpg" alt="бірка" width="370" height="294">
+    <picture>
+    <source srcset="./images/desktop/portfolio-lab-1x.jpg 1x, ./images/desktop/ortfolio-lab-2x.jpg 2x"
+    media="(min-width:1200px)" />
+    <source srcset="./images/tablet/ortfolio-lab-1x.jpg 1x, ./images/tablet/ortfolio-lab-2x.jpg 2x"
+    media=" (min-width:768px)" />
+    <source srcset="./images/mobile/ortfolio-lab-1x.jpg 1x, ./images/mobile/ortfolio-lab-2x.jpg 2x"
+    media="(min-width:480px)" />
+    <img src="./images/mobile/ortfolio-lab-1x.jpg" />
+    </picture>
     </div>
     <div class="portfolio-padding">
     <h2 class="portfolio-cards__subtitle">Проєкт <span lang="en">LAB</span></h2>
@@ -207,7 +271,15 @@
     <li class="portfolio-cards__item"><a class="portfolio-cards__link" href="">
     <div class="portfolio-thumb">
     <p class="portfolio-cards__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-    <img class="portfolio-cards__img" src="./images/portfolio/Growing.jpg" alt="ноутбук з заставкою" width="370" height="294">
+    <picture>
+    <source srcset="./images/desktop/portfolio-business-1x.jpg 1x, ./images/desktop/portfolio-business-2x.jpg 2x"
+    media="(min-width:1200px)" />
+    <source srcset="./images/tablet/portfolio-business-1x.jpg 1x, ./images/tablet/portfolio-business-2x.jpg 2x"
+    media=" (min-width:768px)" />
+    <source srcset="./images/mobile/portfolio-business-1x.jpg 1x, ./images/mobile/portfolio-business-2x.jpg 2x"
+    media="(min-width:480px)" />
+    <img src="./images/mobile/portfolio-business-1x.jpg" />
+    </picture>
     </div>
     <div class="portfolio-padding">
     <h2 class="portfolio-cards__subtitle" lang="en">Growing Business</h2>
